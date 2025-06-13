@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EasyRoute">
+  <DataContextMoniker Name="/EasyRouteDataContext" />
+  <nestedChildShapes>
+    <classShape Id="703a916e-2471-4021-afb7-3a36abb613eb" absoluteBounds="1.625, 1.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/EasyRouteDataContext/Contato" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ab1b467-c7ea-46c9-bdc1-2103c21a7b0d" absoluteBounds="1.6400000000000001, 1.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a51e0aa5-7996-4255-81f3-960c16a2d9f1" absoluteBounds="4.75, 1.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/EasyRouteDataContext/Endereco" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72fe70f9-278f-47dd-9111-bdbd4f12ef0e" absoluteBounds="4.765, 1.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 2.35659912109375); (4.75 : 2.35659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/EasyRouteDataContext/Contato/Contato_Endereco" />
+      <nodes>
+        <classShapeMoniker Id="703a916e-2471-4021-afb7-3a36abb613eb" />
+        <classShapeMoniker Id="a51e0aa5-7996-4255-81f3-960c16a2d9f1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

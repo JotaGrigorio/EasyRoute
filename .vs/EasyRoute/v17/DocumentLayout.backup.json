@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\J. Gregorio\\Desktop\\EasyRoute\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41A61145-150E-4A26-B4A4-14E76CE2459B}|EasyRoute.csproj|c:\\users\\j. gregorio\\desktop\\easyroute\\pgs\\listacontatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{41A61145-150E-4A26-B4A4-14E76CE2459B}|EasyRoute.csproj|solutionrelative:pgs\\listacontatos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListaContatos.aspx",
+              "DocumentMoniker": "C:\\Users\\J. Gregorio\\Desktop\\EasyRoute\\Pgs\\ListaContatos.aspx",
+              "RelativeDocumentMoniker": "Pgs\\ListaContatos.aspx",
+              "ToolTip": "C:\\Users\\J. Gregorio\\Desktop\\EasyRoute\\Pgs\\ListaContatos.aspx",
+              "RelativeToolTip": "Pgs\\ListaContatos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-13T02:22:47.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

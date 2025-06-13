@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="EasyRoute.Master.cs" Inherits="EasyRoute.EasyRoute" %>
+<!DOCTYPE html>
+
+<html>
+    <head runat="server">
+        <title>EASY ROUTE</title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+            <link href="../Css-Lib/bootstrap.min.css" rel="stylesheet" />
+            <link href="../Css-Lib/bootstrap-toggle.less" rel="stylesheet" />
+            <link href="../Css-Lib/font-awesome.css" rel="stylesheet" />
+            <link href="../Css/Estilo.css" rel="stylesheet" />
+            <script src="../Js/RotinasGerais.js" type="text/javascript"></script>
+            <script src="../Scripts/jquery-3.6.0.js" type="text/javascript"></script>
+            <script src="../Scripts/umd/popper.min.js"></script>
+            <script src="../Js-Lib/bootstrap.min.js"></script>
+            <script src="../Js-Lib/jQuery.tmpl.js"></script>
+            <script src="../Js-Lib/jquery.tmpl.min.js"></script>
+            <script src="../Js-Lib/bootstrap-toggle.js"></script>
+            <script src="../Js-Lib/noty.js"></script>
+            <script src="../Js-Lib/jquery.mask.js"></script>
+            <script src="../Js-Lib/smartpaginator.js"></script>
+        </asp:ContentPlaceHolder>
+    </head>
+
+    <body>
+        <%--Barra de Navegação--%>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="nav-logo" href="ListaContatos.aspx">EASY &#129517; ROUTE</a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav" style="margin-left: auto">
+                            <li class="nav-item">
+                                <a class="nav-atalho" href="ListaContatos.aspx">Contatos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <%--Conteúdo--%>
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="content" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+
+    </body>
+</html>
