@@ -1,0 +1,28 @@
+﻿# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# Others
+*.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.json

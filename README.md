@@ -25,25 +25,18 @@ O **EasyRoute** é um sistema web desenvolvido em ASP.NET WebForms com C#, criad
 ```  
 
 EasyRoute/
-├── Css/                   # Estilos personalizados 
-├── Css-Lib/               # Bibliotecas de estilo (Bootstrap, Font Awesome)
-├── Imgs/                  # Imagens do sistema 
-├── Js/                    # Scripts do sistema 
-│   └── Contato.js         # Script principal da tela de contato
-├── Js-Lib/                # Bibliotecas JS externas (jQuery, Noty, Mask, SmartPaginator)
-├── Handlers/              # Arquivos .ashx para processamento 
-│   └── Contato.ashx
-├── Pgs/                   # Páginas principais do sistema
-│   ├── CadastroContato.aspx
-│   ├── EdicaoContato.aspx
-│   └── ListaContatos.aspx
-├── Uc/                    # UserControls reutilizáveis
-│   ├── UcFormContato.ascx
-│   └── UcEnderecosContato.ascx
-├── Utils/                 # Utilitários e métodos auxiliares
-│   └── MetodosWeb.cs
-├── EasyRoute.dbml         # Mapeamento LINQ to SQL
-└── EasyRoute.Master       # Master Page para layout principal
+├── Css/               # Estilos personalizados 
+├── Css-Lib/           # Bibliotecas de estilo (Bootstrap, Font Awesome)
+├── Js/                # Scripts principais do sistema 
+├── Js-Lib/            # Bibliotecas JS externas (jQuery, Noty, Mask, SmartPaginator)
+├── Handlers/          # Arquivos .ashx para processamento 
+├── Pgs/               # Páginas .aspx do sistema
+├── Uc/                # UserControls .ascx reutilizáveis
+├── Utils/             # Utilitários e métodos auxiliares
+├── Imgs/              # Imagens do sistema 
+├── Sql/               # Arquivos .sql de criação do banco, tabelas e inserts fictícios
+├── EasyRoute.dbml     # Mapeamento LINQ to SQL
+└── EasyRoute.Master   # Master Page para layout principal
 
 ```
 

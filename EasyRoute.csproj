@@ -185,6 +185,10 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Sql\01_Create_DataBase.sql" />
+    <Content Include="Sql\02_Create_Tables.sql" />
+    <Content Include="Sql\03_Insert_Contatos.sql" />
+    <Content Include="Sql\04_Insert_Enderecos.sql" />
     <Content Include="Uc\UcFormContato.ascx" />
     <Content Include="Js-Lib\bootstrap-toggle.js" />
     <Content Include="fonts\FontAwesome.otf" />
